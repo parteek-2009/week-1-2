@@ -51,10 +51,6 @@ week2/
 |-- decisions/
 |   `-- decision-record.md     <- log of design decisions made and why (e.g. resolving the
 |                                  spec's combined-threshold issue, Section 7 of the paper)
-`-- social/
-    |-- linkedin-posts.md      <- five posts connected to this project
-    `-- x-thread.md            <- Reddit/X discussion log
-```
 
 ## Running it
 
