@@ -1,0 +1,9 @@
+{
+  "token_name": "SlippageDrainer",
+  "Static Contract Permissions": "Centralized-Idle",
+  "Token Supply & Minting Mechanics": "Hard-Capped",
+  "Fee & Tax Configuration": "Honeypot-Tax",
+  "Runtime Execution Simulation": "High-Slippage",
+  "On-Chain Wallet Flows & Distribution": "Whale-Concentrated",
+  "Off-Chain & Social Viability": "Abandoned-Fraud"
+}

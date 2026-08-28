@@ -1,0 +1,63 @@
+{
+  "token_name": "SleepingHoneypot",
+  "final_answer": "BLOCK",
+  "confidence_score": 0.3684210526315789,
+  "final_belief": {
+    "Legitimate Project": 0.015789473684210527,
+    "Liquidity Rug Pull": 0.05263157894736843,
+    "Token Dump Rug Pull": 0.039473684210526314,
+    "Honeypot": 0.3684210526315789,
+    "Minting Abuse": 0.039473684210526314,
+    "Fee/Tax Rug Pull": 0.4736842105263158,
+    "Something Else": 0.010526315789473684
+  },
+  "checked_categories": [
+    {
+      "category": "Fee & Tax Configuration",
+      "observed_outcome": "Honeypot-Tax",
+      "cost_inr": 10,
+      "belief_after": {
+        "Legitimate Project": 0.015789473684210527,
+        "Liquidity Rug Pull": 0.05263157894736843,
+        "Token Dump Rug Pull": 0.039473684210526314,
+        "Honeypot": 0.3684210526315789,
+        "Minting Abuse": 0.039473684210526314,
+        "Fee/Tax Rug Pull": 0.4736842105263158,
+        "Something Else": 0.010526315789473684
+      }
+    }
+  ],
+  "unchecked_categories": [
+    {
+      "category": "Static Contract Permissions",
+      "cost_inr": 10,
+      "expected_entropy_if_run": 1.6431240450146047
+    },
+    {
+      "category": "Token Supply & Minting Mechanics",
+      "cost_inr": 10,
+      "expected_entropy_if_run": 1.6330103603184032
+    },
+    {
+      "category": "Runtime Execution Simulation",
+      "cost_inr": 150,
+      "expected_entropy_if_run": 1.3076055312168715
+    },
+    {
+      "category": "On-Chain Wallet Flows & Distribution",
+      "cost_inr": 80,
+      "expected_entropy_if_run": 1.6794341511264808
+    },
+    {
+      "category": "Off-Chain & Social Viability",
+      "cost_inr": 40,
+      "expected_entropy_if_run": 1.7094633381626951
+    }
+  ],
+  "total_cost_inr": 10,
+  "reasoning": [
+    "Selected 'Fee & Tax Configuration' first: highest value-per-rupee among all 6 categories (value-per-rupee 0.0124, cost 10 INR).",
+    "Observed outcome 'Honeypot-Tax'. Updated belief accordingly.",
+    "State Honeypot reached 36.8% (>= 33%) \u2014 stopping loop, verdict BLOCK."
+  ]
+}

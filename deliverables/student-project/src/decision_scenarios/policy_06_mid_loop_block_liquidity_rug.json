@@ -1,0 +1,9 @@
+{
+  "token_name": "PolicyTest_LiquidityRugBlock",
+  "Static Contract Permissions": "Centralized-Idle",
+  "Token Supply & Minting Mechanics": "Hard-Capped",
+  "Fee & Tax Configuration": "Low-Immutable",
+  "Runtime Execution Simulation": "Swaps-OK",
+  "On-Chain Wallet Flows & Distribution": "Rug-Dumping",
+  "Off-Chain & Social Viability": "Ghost-Town"
+}

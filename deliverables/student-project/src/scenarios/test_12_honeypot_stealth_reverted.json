@@ -1,0 +1,9 @@
+{
+  "token_name": "StealthTrapToken",
+  "Static Contract Permissions": "Renounced",
+  "Token Supply & Minting Mechanics": "Hard-Capped",
+  "Fee & Tax Configuration": "Low-Immutable",
+  "Runtime Execution Simulation": "Execution-Reverted",
+  "On-Chain Wallet Flows & Distribution": "Whale-Concentrated",
+  "Off-Chain & Social Viability": "Abandoned-Fraud"
+}

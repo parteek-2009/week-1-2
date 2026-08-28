@@ -1,0 +1,9 @@
+{
+  "token_name": "FakeRenouncedTrap",
+  "Static Contract Permissions": "Renounced",
+  "Token Supply & Minting Mechanics": "Hard-Capped",
+  "Fee & Tax Configuration": "Honeypot-Tax",
+  "Runtime Execution Simulation": "Execution-Reverted",
+  "On-Chain Wallet Flows & Distribution": "Whale-Concentrated",
+  "Off-Chain & Social Viability": "Abandoned-Fraud"
+}

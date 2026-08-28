@@ -1,0 +1,9 @@
+{
+  "token_name": "MoonRocketHoneypot",
+  "Static Contract Permissions": "Weaponized",
+  "Token Supply & Minting Mechanics": "Hard-Capped",
+  "Fee & Tax Configuration": "Honeypot-Tax",
+  "Runtime Execution Simulation": "Execution-Reverted",
+  "On-Chain Wallet Flows & Distribution": "Whale-Concentrated",
+  "Off-Chain & Social Viability": "Abandoned-Fraud"
+}

@@ -1,0 +1,75 @@
+{
+  "token_name": "DilutionSlippageMixed",
+  "final_answer": "BLOCK",
+  "confidence_score": 0.37154989384288745,
+  "final_belief": {
+    "Legitimate Project": 0.08174097664543527,
+    "Liquidity Rug Pull": 0.21673743807501766,
+    "Token Dump Rug Pull": 0.37154989384288745,
+    "Honeypot": 0.1415428167020524,
+    "Minting Abuse": 0.053078556263269634,
+    "Fee/Tax Rug Pull": 0.03980891719745223,
+    "Something Else": 0.09554140127388533
+  },
+  "checked_categories": [
+    {
+      "category": "Fee & Tax Configuration",
+      "observed_outcome": "Adjustable-Moderate",
+      "cost_inr": 10,
+      "belief_after": {
+        "Legitimate Project": 0.16097560975609757,
+        "Liquidity Rug Pull": 0.17073170731707313,
+        "Token Dump Rug Pull": 0.2560975609756097,
+        "Honeypot": 0.09756097560975611,
+        "Minting Abuse": 0.18292682926829265,
+        "Fee/Tax Rug Pull": 0.043902439024390234,
+        "Something Else": 0.08780487804878047
+      }
+    },
+    {
+      "category": "Token Supply & Minting Mechanics",
+      "observed_outcome": "Potential-Dilution",
+      "cost_inr": 10,
+      "belief_after": {
+        "Legitimate Project": 0.08174097664543527,
+        "Liquidity Rug Pull": 0.21673743807501766,
+        "Token Dump Rug Pull": 0.37154989384288745,
+        "Honeypot": 0.1415428167020524,
+        "Minting Abuse": 0.053078556263269634,
+        "Fee/Tax Rug Pull": 0.03980891719745223,
+        "Something Else": 0.09554140127388533
+      }
+    }
+  ],
+  "unchecked_categories": [
+    {
+      "category": "Static Contract Permissions",
+      "cost_inr": 10,
+      "expected_entropy_if_run": 2.1162994808273954
+    },
+    {
+      "category": "Runtime Execution Simulation",
+      "cost_inr": 150,
+      "expected_entropy_if_run": 1.9595639290979685
+    },
+    {
+      "category": "On-Chain Wallet Flows & Distribution",
+      "cost_inr": 80,
+      "expected_entropy_if_run": 2.0642455133974753
+    },
+    {
+      "category": "Off-Chain & Social Viability",
+      "cost_inr": 40,
+      "expected_entropy_if_run": 2.250132704696517
+    }
+  ],
+  "total_cost_inr": 20,
+  "reasoning": [
+    "Selected 'Fee & Tax Configuration' first: highest value-per-rupee among all 6 categories (value-per-rupee 0.0124, cost 10 INR).",
+    "Observed outcome 'Adjustable-Moderate'. Updated belief accordingly.",
+    "No single state reached 67% (highest was Token Dump Rug Pull at 25.6%) \u2014 continuing the loop.",
+    "Selected 'Token Supply & Minting Mechanics' next: highest value-per-rupee among the remaining 5 categories (value-per-rupee 0.0118, cost 10 INR).",
+    "Observed outcome 'Potential-Dilution'. Updated belief accordingly.",
+    "State Token Dump Rug Pull reached 37.2% (>= 33%) \u2014 stopping loop, verdict BLOCK."
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "token_name": "TaxDrainNetwork",
+  "final_answer": "BLOCK",
+  "confidence_score": 0.3313744272141249,
+  "final_belief": {
+    "Legitimate Project": 0.029047039635488135,
+    "Liquidity Rug Pull": 0.32619670178890403,
+    "Token Dump Rug Pull": 0.06795764620602168,
+    "Honeypot": 0.3313744272141249,
+    "Minting Abuse": 0.019416470344577625,
+    "Fee/Tax Rug Pull": 0.19571802107334244,
+    "Something Else": 0.030289693737541094
+  },
+  "checked_categories": [
+    {
+      "category": "Fee & Tax Configuration",
+      "observed_outcome": "Adjustable-Moderate",
+      "cost_inr": 10,
+      "belief_after": {
+        "Legitimate Project": 0.16097560975609757,
+        "Liquidity Rug Pull": 0.17073170731707313,
+        "Token Dump Rug Pull": 0.2560975609756097,
+        "Honeypot": 0.09756097560975611,
+        "Minting Abuse": 0.18292682926829265,
+        "Fee/Tax Rug Pull": 0.043902439024390234,
+        "Something Else": 0.08780487804878047
+      }
+    },
+    {
+      "category": "Token Supply & Minting Mechanics",
+      "observed_outcome": "Hard-Capped",
+      "cost_inr": 10,
+      "belief_after": {
+        "Legitimate Project": 0.27486526212640866,
+        "Liquidity Rug Pull": 0.20578147966682991,
+        "Token Dump Rug Pull": 0.2572268495835374,
+        "Honeypot": 0.07839294463498286,
+        "Minting Abuse": 0.007349338559529641,
+        "Fee/Tax Rug Pull": 0.06173444390004898,
+        "Something Else": 0.1146496815286624
+      }
+    },
+    {
+      "category": "Static Contract Permissions",
+      "observed_outcome": "Weaponized",
+      "cost_inr": 10,
+      "belief_after": {
+        "Legitimate Project": 0.029047039635488135,
+        "Liquidity Rug Pull": 0.32619670178890403,
+        "Token Dump Rug Pull": 0.06795764620602168,
+        "Honeypot": 0.3313744272141249,
+        "Minting Abuse": 0.019416470344577625,
+        "Fee/Tax Rug Pull": 0.19571802107334244,
+        "Something Else": 0.030289693737541094
+      }
+    }
+  ],
+  "unchecked_categories": [
+    {
+      "category": "Runtime Execution Simulation",
+      "cost_inr": 150,
+      "expected_entropy_if_run": 1.4859778021502852
+    },
+    {
+      "category": "On-Chain Wallet Flows & Distribution",
+      "cost_inr": 80,
+      "expected_entropy_if_run": 1.9586909079451207
+    },
+    {
+      "category": "Off-Chain & Social Viability",
+      "cost_inr": 40,
+      "expected_entropy_if_run": 2.0853906739218413
+    }
+  ],
+  "total_cost_inr": 30,
+  "reasoning": [
+    "Selected 'Fee & Tax Configuration' first: highest value-per-rupee among all 6 categories (value-per-rupee 0.0124, cost 10 INR).",
+    "Observed outcome 'Adjustable-Moderate'. Updated belief accordingly.",
+    "No single state reached 67% (highest was Token Dump Rug Pull at 25.6%) \u2014 continuing the loop.",
+    "Selected 'Token Supply & Minting Mechanics' next: highest value-per-rupee among the remaining 5 categories (value-per-rupee 0.0118, cost 10 INR).",
+    "Observed outcome 'Hard-Capped'. Updated belief accordingly.",
+    "No single state reached 67% (highest was Legitimate Project at 27.5%) \u2014 continuing the loop.",
+    "Selected 'Static Contract Permissions' next: highest value-per-rupee among the remaining 4 categories (value-per-rupee 0.0076, cost 10 INR).",
+    "Observed outcome 'Weaponized'. Updated belief accordingly.",
+    "State Honeypot reached 33.1% (>= 33%) \u2014 stopping loop, verdict BLOCK."
+  ]
+}

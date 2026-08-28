@@ -1,0 +1,9 @@
+{
+  "token_name": "StealthPrinterDeFi",
+  "Static Contract Permissions": "Centralized-Idle",
+  "Token Supply & Minting Mechanics": "Active-Mint-Abuse",
+  "Fee & Tax Configuration": "Low-Immutable",
+  "Runtime Execution Simulation": "Swaps-OK",
+  "On-Chain Wallet Flows & Distribution": "Whale-Concentrated",
+  "Off-Chain & Social Viability": "Ghost-Town"
+}
